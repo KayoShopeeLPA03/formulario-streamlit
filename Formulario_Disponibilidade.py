@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, time
 
 FORM_URL = "https://docs.google.com/forms/d/1ebAOKr3CoGdjd0AmDBDAO5SoK4BiDyrnwEw4SjOY1Vs/edit?ts=67d80e2c"  
 HORA_ABERTURA = time(2, 0)   
-HORA_FECHAMENTO = time(18, 0)
+HORA_FECHAMENTO = time(19, 0)
 
 st.set_page_config(page_title="Acesso ao Formulário", page_icon="📝", layout="centered")
 
