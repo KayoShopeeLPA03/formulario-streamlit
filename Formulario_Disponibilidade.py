@@ -6,9 +6,9 @@ FORM_URL = "https://docs.google.com/forms/d/1ebAOKr3CoGdjd0AmDBDAO5SoK4BiDyrnwEw
 HORA_ABERTURA = time(2, 0)   
 HORA_FECHAMENTO = time(21, 0)
 
-st.set_page_config(page_title="Acesso ao Formulário", page_icon="📝", layout="centered")
+st.set_page_config(page_title="Formulario Disponibilidade", page_icon="📝", layout="centered")
 
-st.title("📝 Formulário Disponibilidade Motoristas ")
+st.title("📝 Formulário Disponibilidade ")
 
 agora = datetime.now()
 hora_atual = agora.time()
