@@ -23,7 +23,7 @@ def tempo_restante(alvo):
 
 
 if HORA_ABERTURA <= hora_atual < HORA_FECHAMENTO:
-    st.success("✅ O formulário está ABERTO agora.")
+    st.success("✅ O formulário está ABERTO agora."),
     st.info("🔔 O Formulario é Sempre para o carregamento do dia Seguinte. 
 Ex: Preenchimento na Segunda é para carregar na Terça e assim sucessivamente.")
     st.markdown(f"📎 [Clique aqui para acessar o formulário]({FORM_URL})", unsafe_allow_html=True)
