@@ -1,6 +1,5 @@
 import streamlit as st
 from datetime import datetime, timedelta, time
-from pathlib import Path
 
 # Link do formulário
 FORM_URL = "https://docs.google.com/forms/d/1ebAOKr3CoGdjd0AmDBDAO5SoK4BiDyrnwEw4SjOY1Vs/edit?ts=67d80e2c"
@@ -20,7 +19,6 @@ st.set_page_config(
 )
 
 # Mostra imagem
-st.image(str(CAMINHO_IMAGEM), width=150)
 st.title("Formulário de Disponibilidade")
 
 # Avisos
