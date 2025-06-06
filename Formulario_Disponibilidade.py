@@ -13,7 +13,7 @@ st.set_page_config(page_title="Formulário Disponibilidade", page_icon="📝", l
 
 st.title("📝 Formulário de Disponibilidade")
 
-st.info("🔔 O formulário é sempre para o carregamento do dia seguinte.")
+st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher Sabado e Domingo que é valido para o carregamento na Segunda")
 st.info("📅 Exemplo: Se você preencher na segunda, é para o trabalho de terça-feira.")
 
 
