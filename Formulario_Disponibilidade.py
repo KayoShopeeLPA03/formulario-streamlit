@@ -18,8 +18,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# Mostra imagem
-st.title("Formulário de Disponibilidade")
+st.title("Formulário de Disponibilidade Motoristas")
 
 # Avisos
 st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.")
