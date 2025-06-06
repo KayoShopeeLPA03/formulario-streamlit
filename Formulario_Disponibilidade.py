@@ -9,7 +9,7 @@ HORA_FECHAMENTO = time(21, 0)
 st.set_page_config(page_title="Formulario Disponibilidade", page_icon="📝", layout="centered")
 
 st.title("📝 Formulário Disponibilidade ")
-st.info("🔔 O Formulario é Sempre para o carregamento do dia Seguinte. Ex: Preenchimento na Segunda é para carregar na Terça e assim sucessivamente.")
+
 
 
 agora = datetime.now()
@@ -24,6 +24,8 @@ def tempo_restante(alvo):
 
 if HORA_ABERTURA <= hora_atual < HORA_FECHAMENTO:
     st.success("✅ O formulário está ABERTO agora.")
+    st.info("🔔 O Formulario é Sempre para o carregamento do dia Seguinte. 
+Ex: Preenchimento na Segunda é para carregar na Terça e assim sucessivamente.")
     st.markdown(f"📎 [Clique aqui para acessar o formulário]({FORM_URL})", unsafe_allow_html=True)
 
     
