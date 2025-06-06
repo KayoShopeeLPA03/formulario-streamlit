@@ -11,11 +11,11 @@ HORA_FECHAMENTO = time(21, 0)
 
 st.set_page_config(
     page_title="Formulário Disponibilidade",
-    page_icon="https://i.pinimg.com/474x/67/6c/01/676c0101557e1e6b64708ef724669905.jpg",
+    page_icon="https://imagensempng.com.br/wp-content/uploads/2022/02/Logo-Shopee-Png.png",
     layout="centered"
 )
 
-st.image("https://i.pinimg.com/474x/67/6c/01/676c0101557e1e6b64708ef724669905.jpg", width=150)
+st.image("https://imagensempng.com.br/wp-content/uploads/2022/02/Logo-Shopee-Png.png", width=150)
 st.title("Formulário de Disponibilidade")
 
 st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.")
