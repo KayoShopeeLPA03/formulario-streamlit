@@ -10,7 +10,7 @@ HORA_ABERTURA = time(5, 0)
 HORA_FECHAMENTO = time(21, 0)
 
 # Caminho da imagem (altere conforme necessário)
-CAMINHO_IMAGEM = Path("C:/Users/SPXBR23524/Downloads/Logo-Shopee-Png-removebg-preview.png")
+
 
 # Configuração da página (sem ícone personalizado)
 st.set_page_config(
