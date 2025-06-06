@@ -15,7 +15,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.image("https://imagensempng.com.br/wp-content/uploads/2022/02/Logo-Shopee-Png.png", width=150)
+st.image("https://i.pinimg.com/736x/05/7b/27/057b274c134bcf92ac151758478949b3.jpg", width=150)
 st.title("Formulário de Disponibilidade")
 
 st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.")
