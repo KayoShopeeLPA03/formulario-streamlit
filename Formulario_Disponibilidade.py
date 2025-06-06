@@ -16,7 +16,7 @@ st.set_page_config(
 st.title("Formulário de Disponibilidade")
 
 
-st.badge("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.",Icon=":materiel/warning:",color="Yellow")
+st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.")
 st.info("📅 Exemplo: Se você preencher na segunda, é para o trabalho de terça-feira.")
 
 
