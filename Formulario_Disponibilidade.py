@@ -11,11 +11,12 @@ HORA_FECHAMENTO = time(21, 0)
 
 st.set_page_config(
     page_title="Formulário Disponibilidade",
-    page_icon="https://i.pinimg.com/474x/67/6c/01/676c0101557e1e6b64708ef724669905.jpg",
+    page_icon="https://p1.hiclipart.com/preview/830/984/978/tokopedia-logo-shopee-indonesia-online-shopping-bukalapak-consumer-market-text-orange-png-clipart.jpg",
     layout="centered"
 )
 
-st.title("📝 Formulário de Disponibilidade")
+st.image("https://p1.hiclipart.com/preview/830/984/978/tokopedia-logo-shopee-indonesia-online-shopping-bukalapak-consumer-market-text-orange-png-clipart.jpg", width=150)
+st.title("Formulário de Disponibilidade")
 
 st.info("🔔 O formulário é sempre para o carregamento do dia seguinte. Menos quando preencher sábado e domingo, que é válido para a segunda-feira.")
 st.info("📅 Exemplo: Se você preencher na segunda, é para o trabalho de terça-feira.")
