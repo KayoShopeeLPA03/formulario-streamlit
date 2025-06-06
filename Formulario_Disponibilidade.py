@@ -9,7 +9,7 @@ HORA_FECHAMENTO = time(21, 0)
 st.set_page_config(page_title="Formulario Disponibilidade", page_icon="📝", layout="centered")
 
 st.title("📝 Formulário Disponibilidade ")
-st.info("🔔 Preencha o formulário antes das 21h para registrar sua disponibilidade!")
+st.info("🔔 O Formulario é Sempre para o carregamento do dia Seguinte. Ex: Preenchimento na Segunda é para carregar na Terça e assim sucessivamente.")
 
 
 agora = datetime.now()
