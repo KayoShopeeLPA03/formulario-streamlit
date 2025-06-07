@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, time
 FORM_URL = "https://docs.google.com/forms/d/1ebAOKr3CoGdjd0AmDBDAO5SoK4BiDyrnwEw4SjOY1Vs/edit?ts=67d80e2c"
 
 HORA_ABERTURA = time(5, 0)
-HORA_FECHAMENTO = time(21, 0)
+HORA_FECHAMENTO = time(20, 0)
 
 st.set_page_config(
     page_title="Formulário Disponibilidade",
