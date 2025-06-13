@@ -41,4 +41,4 @@ else:
     st.info(f"⏳ Ele será reaberto em: `{tempo}`")
 
 st.markdown("---")
-st.caption("Desenvolvido por Kayo Soares - LPA 03")
+st.caption("**Desenvolvido por Kayo Soares - LPA 03**")
